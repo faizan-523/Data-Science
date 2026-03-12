@@ -24,3 +24,14 @@ print(data.iloc[0])
 print(data.iloc[0:3])
 print(type(data.iloc[0]))
 
+#data cleaning
+data.dropna(inplace=True)
+print(data)
+
+data.fillna(0)
+print(data)
+
+#Rename columns
+data.rename(columns={'Name': 'Full Name'}, inplace=True)
+print(data)
+
