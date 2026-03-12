@@ -13,4 +13,14 @@ print(df)
 data = pd.read_excel('random_data_ds.xlsx')
 print(data.head())
 print(data)
+print(data.describe())
+print(data.info())
+
+#data selection
+print(data['Name'])
+print(type(data['Name']))
+print(data[['Name', 'Age']])
+print(data.iloc[0])
+print(data.iloc[0:3])
+print(type(data.iloc[0]))
 
