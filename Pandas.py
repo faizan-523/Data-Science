@@ -35,3 +35,4 @@ print(data)
 data.rename(columns={'Name': 'Full Name'}, inplace=True)
 print(data)
 
+print(data.info())
