@@ -6,7 +6,7 @@ y1 = np.array([10, 15, 25, 20])
 y2 = np.array([5, 10, 15, 10])
 y3 = np.array([2, 5, 10, 8])
 
-plt.title("Line Plott", fontsize=20,
+plt.title("Line Plot", fontsize=20,
                         family='Arial',
                         fontweight='bold',
                         color='Black')
@@ -82,5 +82,29 @@ plt.title("Pie Chart", fontsize=20,
                         family='Arial',
                         fontweight='bold',
                         color='Black')
+
+plt.show()
+
+#Scatter Graph
+
+x1 = np.array([0,1,2,3,4,5,6,7,7,8,9])
+y1 = np.array([55,60,56,70,75,80,85,65,90,77,90])
+
+plt.scatter(x1,y1)
+plt.title("Scatter Graph",  fontsize=20,
+                            family='Arial',
+                            fontweight='bold',
+                            color='Black')
+
+plt.show()
+
+scores = np.random.randint(0, 100, 50)
+plt.hist(scores, bins=5, color='tan', edgecolor='black')
+plt.title("Histogram", fontsize=20,
+                        family='Arial',
+                        fontweight='bold',
+                        color='Black')
+plt.xlabel("Scores")
+plt.ylabel("Frequency")
 
 plt.show()
