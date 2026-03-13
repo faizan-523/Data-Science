@@ -36,3 +36,11 @@ data.rename(columns={'Name': 'Full Name'}, inplace=True)
 print(data)
 
 print(data.info())
+
+#Merging dataframes
+df1 = pd.DataFrame({'ID': [1, 2, 3], 'Name': ['Faizan', 'Rafay', 'Waleed'],
+                    'Age': [20, 21, 22]})
+df2 = pd.DataFrame({'ID': [1, 2, 3], 'Marks': [85, 90, 95]})
+
+merged_df = pd.merge(df1, df2, on='ID')
+print(merged_df)
