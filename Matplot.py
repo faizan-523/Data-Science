@@ -52,6 +52,10 @@ plt.subplots_adjust(left=0.1,
                     top=0.9, 
                     bottom=0.1)
 
+plt.grid(color='gray', 
+         linestyle='--', 
+         linewidth=1)
+
 plt.show()
 
 
