@@ -108,3 +108,34 @@ plt.xlabel("Scores")
 plt.ylabel("Frequency")
 
 plt.show()
+
+
+#Subplots
+x = np.array([1,2,3,4,5])
+
+fig, axs = plt.subplots(2, 2)
+
+axs[0, 0].plot(x, x*2, color='navy')
+axs[0, 0].set_title("x*2", fontsize=15,
+                            family='Arial',
+                            fontweight='bold',
+                            color='Black')
+
+axs[0, 1].plot(x, x**2, color='purple')
+axs[0, 1].set_title("x^2", fontsize=15,
+                            family='Arial',
+                            fontweight='bold',
+                            color='Black')
+axs[1, 0].plot(x, x**3, color='orange')
+axs[1, 0].set_title("x^3", fontsize=15,
+                            family='Arial',
+                            fontweight='bold',
+                            color='Black')
+axs[1, 1].plot(x, np.sqrt(x), color='green')
+axs[1, 1].set_title("sqrt(x)", fontsize=15,
+                            family='Arial',
+                            fontweight='bold',
+                            color='Black')
+
+plt.tight_layout()
+plt.show()
