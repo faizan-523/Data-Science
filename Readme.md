@@ -10,10 +10,10 @@ It includes basic implementations of **NumPy, Pandas, and Matplotlib** along wit
 ```
 Data-Science
 │
-├── numpy_basics.py
-├── matplotlib_basics.py
-├── pandas_basics.py
-├── pandas_with_matplotlib.py
+├── numpy.py
+├── matplotlib.py
+├── pandas.py
+├── pandaswithmatplotlib.py
 ├── random_data_ds.xlsx
 └── README.md
 ```
