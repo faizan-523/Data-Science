@@ -10,7 +10,7 @@ df = pd.DataFrame({"names": ['Faizan', 'Ahmed', 'Ali'],
 print(df)
 
 #reading data
-data = pd.read_excel('random_data_ds.xlsx')
+data = pd.read_excel('data.xlsx')
 print(data.head())
 print(data)
 print(data.describe())
