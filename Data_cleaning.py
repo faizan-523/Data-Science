@@ -20,4 +20,11 @@ print("After Dropping Missing Values:")
 new_df = df.dropna()
 print(new_df)
 
+d = pd.DataFrame({
+    'Name': ['Ali', 'Ahmed', 'Faizan', 'Rafay'],
+    'Score': ['A', 'B', 'C', 'D']} 
+)
+
+new_d = d.replace({'Score': {'A': 90, 'B': 80, 'C': 70, 'D': 60}})
+print(new_d)
 
