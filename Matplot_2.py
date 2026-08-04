@@ -1,10 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-x = np.array([2023, 2024, 2025, 2026])
-y1 = np.array([10, 15, 25, 20])
-y2 = np.array([5, 10, 15, 10])
-y3 = np.array([2, 5, 10, 8])#Bar chart
+#Bar chart
 cat = ['Chocolate', 'Vanilla', 'Strawberry', 'Mint','Lemon', 'Blueberry']
 values = [20, 15, 25, 10, 5, 30]
 
